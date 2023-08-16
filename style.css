@@ -1,0 +1,86 @@
+color{
+    color: hsl(31, 77%, 52%) ;
+    color:hsl(184, 100%, 22%) ;
+    color:hsl(179, 100%, 13%) ;
+    color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%) ;
+
+}
+
+body{
+    background-color:hsl(0, 0%, 95%) ;
+   
+    height: 1440px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1440px;
+    
+}
+
+.container{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+.para1{
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(31, 45%, 68%);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.para2{
+    background-color:hsl(184, 100%, 22%);
+    color:hsl(184, 22%, 56%);
+}
+
+.para3{
+    background-color:hsl(179, 100%, 13%);
+    color:hsl(179, 21%, 48%);
+    border-radius: 0px 8px 8px 0px;
+}
+
+.heading{
+   font-size: 40px;
+   text-transform: uppercase;
+   color:hsl(0, 0%, 95%) ;
+   font-family: 'Lexend Deca', sans-serif;
+}
+
+.para button{
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    background-color:hsl(0, 0%, 95%)  ;
+
+}
+
+.para{
+    padding: 40px;
+    padding-top: 70px;
+}
+
+.b1{
+    color:hsl(31, 38%, 79%) ;
+    border: 1px solid hsl(31, 56%, 46%) ;
+    position: relative;
+    top:90px;
+}
+
+.b2{
+    color:hsl(184, 76%, 82%);
+    border: 1px solid hsl(184, 41%, 60%);
+    position: relative;
+    top:110px;
+}
+
+.b3{
+    color:hsl(179, 21%, 48%);
+    border: 1px solid hsl(179, 21%, 48%);
+    position: relative;
+    top:110px;
+}
